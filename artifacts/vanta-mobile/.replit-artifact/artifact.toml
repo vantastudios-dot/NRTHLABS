@@ -1,0 +1,27 @@
+kind = "mobile"
+previewPath = "/vanta-mobile/"
+title = "Vanta Studios Mobile"
+version = "1.0.0"
+id = "artifacts/vanta-mobile"
+router = "expo-domain"
+
+[[integratedSkills]]
+name = "expo"
+version = "1.0.0"
+
+[[services]]
+ensurePreviewReachable = "/status"
+name = "expo"
+paths = [ "/vanta-mobile/" ]
+localPort = 18938
+
+[services.development]
+run = "pnpm --filter @workspace/vanta-mobile run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/vanta-mobile", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/vanta-mobile", "run", "serve" ]
+
+[services.env]
+PORT = "18938"
+BASE_PATH = "/vanta-mobile/"

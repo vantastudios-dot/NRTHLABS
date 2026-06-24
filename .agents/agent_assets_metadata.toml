@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "bTXFvkkmUQjnC8VIzNORp"
+uri = "file://artifacts/vanta-mobile/assets/images/icon.png"
+type = "image"
+title = "generated_image"
