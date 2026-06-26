@@ -1,15 +1,6 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "artifacts/vanta-studios/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist/public"
-      }
-    }
-  ],
-  "routes": [
-    { "src": "(.*)", "dest": "/$1" }
-  ]
+  "framework": "vite",
+  "buildCommand": "pnpm --filter @workspace/vanta-studios run build",
+  "outputDirectory": "artifacts/vanta-studios/dist/public"
 }
