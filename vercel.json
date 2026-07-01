@@ -2,5 +2,5 @@
   "version": 2,
   "framework": "vite",
   "buildCommand": "pnpm --filter @workspace/vanta-studios run build",
-  "outputDirectory": "artifacts/vanta-studios/dist/public"
+  "outputDirectory": "artifacts/vanta-studios/dist"
 }
