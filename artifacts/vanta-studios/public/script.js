@@ -570,4 +570,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // Fix for bfcache (back button) keeping the overlay active
+  window.addEventListener('pageshow', (e) => {
+    if (e.persisted) {
+      if (pageOverlay) pageOverlay.classList.remove('active');
+    }
+  });
+
 });
