@@ -472,17 +472,26 @@ body.light-theme .MenuToggleButton-module-scss-module__qv1k1W__plain {
   min-height: 100%;
   position: relative;
   z-index: 2;
+  pointer-events: none;
 }
 
 .PageTransition-module-scss-module__0kuihG__pageWrap {
   width: 100%;
   min-height: 100%;
   position: relative;
+  pointer-events: none;
 }
 
 .HomePage-module-scss-module__vQrwUa__page {
   display: flex;
   flex-direction: column;
+  pointer-events: none;
+}
+.HomePage-module-scss-module__vQrwUa__page > * {
+  pointer-events: auto;
+}
+.HomePage-module-scss-module__vQrwUa__page > #footer-plax {
+  pointer-events: none;
 }
 
 /* --- Section 1: Hero --- */

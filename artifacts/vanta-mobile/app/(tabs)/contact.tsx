@@ -128,7 +128,7 @@ export default function ContactScreen() {
 
   const handleEmail = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-    Linking.openURL("mailto:hello@vantastudios.com");
+    Linking.openURL("mailto:hello@nrthlabs.com");
   };
 
   return (
@@ -172,7 +172,7 @@ export default function ContactScreen() {
         >
           <Feather name="mail" size={16} color={colors.background} />
           <Text style={[styles.emailText, { color: colors.background, fontFamily: "Inter_600SemiBold" }]}>
-            hello@vantastudios.com
+            hello@nrthlabs.com
           </Text>
         </Pressable>
 

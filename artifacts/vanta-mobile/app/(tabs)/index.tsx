@@ -89,7 +89,7 @@ export default function HomeScreen() {
         </Text>
 
         <Text style={[styles.heroSubtitle, { color: colors.mutedForeground, fontFamily: "Inter_400Regular" }]}>
-          Vanta Studios is an independent design and engineering studio focused on craft, speed, and long-term impact.
+          NRTH LABS is an independent design and engineering studio focused on craft, speed, and long-term impact.
         </Text>
 
         <Animated.View style={{ transform: [{ scale: buttonScale }] }}>

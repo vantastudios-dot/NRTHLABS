@@ -1,6 +1,6 @@
-# Vanta Studios
+# NRTH LABS
 
-A digital design and engineering studio website for Vanta Studios, featuring a preloader animation, smooth scrolling, GSAP animations, and a full agency landing page.
+A digital design and engineering studio website for NRTH LABS, featuring a preloader animation, smooth scrolling, GSAP animations, and a full agency landing page.
 
 ## Run & Operate
 
@@ -41,7 +41,7 @@ A digital design and engineering studio website for Vanta Studios, featuring a p
 
 ## Product
 
-Vanta Studios agency landing page with: preloader animation, hero section with WebGL background grid, approach process, dedicated team section, client work showcase, pricing table, case studies, and footer.
+NRTH LABS agency landing page with: preloader animation, hero section with WebGL background grid, approach process, dedicated team section, client work showcase, pricing table, case studies, and footer.
 
 ## User preferences
 
