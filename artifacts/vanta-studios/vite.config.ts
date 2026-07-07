@@ -42,8 +42,17 @@ export default defineConfig({
   },
   root: path.resolve(import.meta.dirname),
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist/public"),
+    outDir: "dist",
     emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: path.resolve(import.meta.dirname, 'index.html'),
+        hikari: path.resolve(import.meta.dirname, 'work/hikari.html'),
+        fivemonkey: path.resolve(import.meta.dirname, 'work/fivemonkey.html'),
+        oreos: path.resolve(import.meta.dirname, 'work/oreos.html'),
+        woodpecker: path.resolve(import.meta.dirname, 'work/woodpecker-bar.html'),
+      },
+    },
   },
   server: {
     port,
